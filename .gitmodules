@@ -1,0 +1,3 @@
+[submodule "Assets/Libraries/BeatDetection"]
+	path = Assets/Libraries/BeatDetection
+	url = git@github.com:nathanpc/Unity-Beat-Detection.git
