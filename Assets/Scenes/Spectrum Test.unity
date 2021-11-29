@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6143499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7137320}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 34883605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -486,11 +486,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &47247852
 GameObject:
@@ -535,7 +535,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 47247852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -721,7 +721,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 91143468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -732,11 +732,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &121311728
 GameObject:
@@ -790,6 +790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 183315549}
   - component: {fileID: 183315548}
+  - component: {fileID: 183315550}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -907,6 +908,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &183315550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183315547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94c8f1c7592a5fc4b9f6263217f6d059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  microphoneName: Microphone (HD Pro Webcam C920)
+  listMicrophones: 1
 --- !u!1 &208044146
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,7 +966,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 208044146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -1073,7 +1089,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 274505179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -1259,7 +1275,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 339801835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -1273,7 +1289,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &404512800
@@ -1319,7 +1335,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 404512800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -1505,7 +1521,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 404971220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -1519,7 +1535,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &441587787
@@ -1628,7 +1644,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 441587787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -1642,7 +1658,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &567992832
@@ -1751,7 +1767,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 567992832}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -1762,11 +1778,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &684171105
 GameObject:
@@ -1811,7 +1827,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 684171105}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -1997,7 +2013,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 700544659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -2011,7 +2027,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &705507993
@@ -2213,7 +2229,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 706390644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -2227,7 +2243,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &707520063
@@ -2273,7 +2289,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 707520063}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -2281,14 +2297,14 @@ MonoBehaviour:
   _frequencyBin: 0
   _useFullSpectrumAverage: 1
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
   _showValue: 0
-  scaleX: 1
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 5
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!136 &707520066
 CapsuleCollider:
@@ -2459,7 +2475,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 778150420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -2470,11 +2486,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &799907450
 GameObject:
@@ -2582,7 +2598,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 799907450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -2596,7 +2612,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &800214088
@@ -2705,7 +2721,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 800214088}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -2716,11 +2732,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &824147781
 GameObject:
@@ -2828,7 +2844,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 824147781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -2839,11 +2855,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &832978256
 GameObject:
@@ -2888,7 +2904,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 832978256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -3074,7 +3090,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 843919317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -3088,7 +3104,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &948975432
@@ -3197,7 +3213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 948975432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -3208,11 +3224,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &963194225
 GameObject:
@@ -3307,7 +3323,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 082455424276ce44e9a5fbba9efa170e, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cbdddcfadf9a2c409cc64fba8ee1c83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 183315548}
@@ -3426,7 +3442,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1076029982}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -3440,7 +3456,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1084944516
@@ -3591,7 +3607,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1144689898}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -3605,7 +3621,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1347058955
@@ -3714,7 +3730,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1347058955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -3725,11 +3741,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &1364492343
 GameObject:
@@ -3837,7 +3853,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1364492343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -3848,11 +3864,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &1399735167
 GameObject:
@@ -3897,7 +3913,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1399735167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -4020,7 +4036,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1402201476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -4206,7 +4222,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1427501521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -4220,7 +4236,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1519564242
@@ -4329,7 +4345,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1519564242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -4343,7 +4359,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1615455317
@@ -4389,7 +4405,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1615455317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -4575,7 +4591,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1636789771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -4586,11 +4602,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &1802170750
 GameObject:
@@ -4635,7 +4651,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1802170750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de61d4a05523724abd6c47cd66996a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -4863,7 +4879,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1858143260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 592a55ca33618a540b3d52ae4794de02, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -4877,7 +4893,7 @@ MonoBehaviour:
   scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 2
+  yScaleFactor: 4
   scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1934854101
@@ -4986,7 +5002,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1934854101}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -4997,11 +5013,11 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &1979763088
 GameObject:
@@ -5143,7 +5159,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1984227981}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f423438e2b050a4985ab52c343a94fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -5154,9 +5170,9 @@ MonoBehaviour:
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
-  changeXRotation: 1
-  xChangeMultiplier: 2
+  changeXRotation: 0
+  xChangeMultiplier: 1
   changeYRotation: 0
-  yChangeMultiplier: 1
-  changeZRotation: 0
+  yChangeMultiplier: 2
+  changeZRotation: 1
   zChangeMultiplier: 1
