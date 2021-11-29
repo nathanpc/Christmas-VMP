@@ -171,16 +171,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 2
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &6143502
 CapsuleCollider:
@@ -296,13 +297,14 @@ MonoBehaviour:
   _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &7137323
 CapsuleCollider:
@@ -478,16 +480,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 6
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &47247852
 GameObject:
@@ -537,16 +540,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 4
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &47247855
 CapsuleCollider:
@@ -722,16 +726,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 1
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &121311728
 GameObject:
@@ -950,16 +955,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 5
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &208044149
 CapsuleCollider:
@@ -1072,16 +1078,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 10
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &274505182
 CapsuleCollider:
@@ -1257,16 +1264,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 2
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &404512800
 GameObject:
@@ -1316,16 +1324,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 11
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &404512803
 CapsuleCollider:
@@ -1501,16 +1510,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 6
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &441587787
 GameObject:
@@ -1623,16 +1633,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 9
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &567992832
 GameObject:
@@ -1745,16 +1756,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 7
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &684171105
 GameObject:
@@ -1804,16 +1816,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 7
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &684171108
 CapsuleCollider:
@@ -1989,16 +2002,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 8
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &705507993
 GameObject:
@@ -2204,16 +2218,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 10
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &707520063
 GameObject:
@@ -2264,10 +2279,11 @@ MonoBehaviour:
   _processor: {fileID: 0}
   _localGain: 1
   _frequencyBin: 0
-  _useFullSpectrumAverage: 0
+  _useFullSpectrumAverage: 1
   _minimumChangeValue: 0
   _maximumChangeValue: 1
   _changeSpeed: 1
+  _showValue: 0
   scaleX: 1
   xScaleFactor: 1
   scaleY: 1
@@ -2448,16 +2464,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 8
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &799907450
 GameObject:
@@ -2570,16 +2587,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 3
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &800214088
 GameObject:
@@ -2692,16 +2710,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 9
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &824147781
 GameObject:
@@ -2817,13 +2836,14 @@ MonoBehaviour:
   _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &832978256
 GameObject:
@@ -2873,16 +2893,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 9
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &832978259
 CapsuleCollider:
@@ -3061,13 +3082,14 @@ MonoBehaviour:
   _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &948975432
 GameObject:
@@ -3180,16 +3202,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 10
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &963194225
 GameObject:
@@ -3408,16 +3431,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 11
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1084944516
 GameObject:
@@ -3572,16 +3596,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 5
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1347058955
 GameObject:
@@ -3694,16 +3719,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 11
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &1364492343
 GameObject:
@@ -3816,16 +3842,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 5
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &1399735167
 GameObject:
@@ -3875,16 +3902,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 3
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &1399735170
 CapsuleCollider:
@@ -3997,16 +4025,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 1
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &1402201479
 CapsuleCollider:
@@ -4182,16 +4211,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 7
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1519564242
 GameObject:
@@ -4304,16 +4334,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 4
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1615455317
 GameObject:
@@ -4363,16 +4394,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 8
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &1615455320
 CapsuleCollider:
@@ -4548,16 +4580,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 4
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &1802170750
 GameObject:
@@ -4607,16 +4640,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 6
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
   changeXPosition: 1
-  xChangeMultiplier: 1
-  changeYPosition: 1
+  xChangeMultiplier: 7
+  changeYPosition: 0
   yChangeMultiplier: 1
-  changeZPosition: 1
+  changeZPosition: 0
   zChangeMultiplier: 1
 --- !u!136 &1802170753
 CapsuleCollider:
@@ -4834,16 +4868,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 1
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
-  scaleX: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 5
+  _showValue: 0
+  scaleX: 0
   xScaleFactor: 1
   scaleY: 1
-  yScaleFactor: 1
-  scaleZ: 1
+  yScaleFactor: 2
+  scaleZ: 0
   zScaleFactor: 1
 --- !u!1 &1934854101
 GameObject:
@@ -4956,16 +4991,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 2
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
 --- !u!1 &1979763088
 GameObject:
@@ -5112,14 +5148,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 0
+  _frequencyBin: 3
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
-  _maximumChangeValue: 1
-  _changeSpeed: 1
+  _maximumChangeValue: 10
+  _changeSpeed: 2
+  _showValue: 0
   changeXRotation: 1
-  xChangeMultiplier: 1
-  changeYRotation: 1
+  xChangeMultiplier: 2
+  changeYRotation: 0
   yChangeMultiplier: 1
-  changeZRotation: 1
+  changeZRotation: 0
   zChangeMultiplier: 1
