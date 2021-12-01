@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -166,22 +166,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 6143499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 2
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &6143502
 CapsuleCollider:
@@ -208,6 +216,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -289,7 +298,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7137320}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -297,14 +306,22 @@ MonoBehaviour:
   _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &7137323
 CapsuleCollider:
@@ -331,6 +348,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -428,6 +446,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -475,14 +494,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 34883605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 6
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -490,6 +510,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &47247852
@@ -535,22 +563,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 47247852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 4
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &47247855
 CapsuleCollider:
@@ -577,6 +613,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -674,6 +711,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -721,14 +759,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 91143468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 1
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -736,6 +775,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &121311728
@@ -808,7 +855,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
+<<<<<<< Updated upstream
   m_audioClip: {fileID: 8300000, guid: b23ce2459c16b8941995f28097892482, type: 3}
+=======
+  m_audioClip: {fileID: 8300000, guid: 8e8af771ecbd91543922fa2cd96081ec, type: 3}
+>>>>>>> Stashed changes
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -966,22 +1017,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 208044146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 5
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &208044149
 CapsuleCollider:
@@ -1008,6 +1067,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1089,22 +1149,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 274505179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 10
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &274505182
 CapsuleCollider:
@@ -1131,6 +1199,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1214,6 +1283,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1275,11 +1345,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 339801835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 2
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -1291,6 +1362,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &404512800
 GameObject:
@@ -1335,22 +1418,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 404512800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 11
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &404512803
 CapsuleCollider:
@@ -1377,6 +1468,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1460,6 +1552,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1521,11 +1614,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 404971220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 6
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -1537,6 +1631,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &441587787
 GameObject:
@@ -1583,6 +1689,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1644,11 +1751,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 441587787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 9
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -1660,6 +1768,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &567992832
 GameObject:
@@ -1720,6 +1840,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1767,14 +1888,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 567992832}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 7
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -1782,6 +1904,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &684171105
@@ -1827,22 +1957,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 684171105}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 7
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &684171108
 CapsuleCollider:
@@ -1869,6 +2007,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1952,6 +2091,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2013,11 +2153,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 700544659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 8
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -2029,6 +2170,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &705507993
 GameObject:
@@ -2168,6 +2321,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2229,11 +2383,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 706390644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 10
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -2245,6 +2400,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &707520063
 GameObject:
@@ -2289,14 +2456,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 707520063}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
   _frequencyBin: 0
-  _useFullSpectrumAverage: 1
+  _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
@@ -2305,6 +2473,15 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 5
   scaleZ: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!136 &707520066
 CapsuleCollider:
@@ -2331,6 +2508,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2428,6 +2606,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2475,14 +2654,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 778150420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 8
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -2490,6 +2670,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &799907450
@@ -2537,6 +2725,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2598,11 +2787,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 799907450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 3
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -2614,6 +2804,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &800214088
 GameObject:
@@ -2674,6 +2876,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2721,14 +2924,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 800214088}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 9
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -2736,6 +2940,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &824147781
@@ -2797,6 +3009,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2844,7 +3057,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 824147781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -2852,6 +3065,7 @@ MonoBehaviour:
   _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -2859,6 +3073,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &832978256
@@ -2904,22 +3126,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 832978256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 9
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &832978259
 CapsuleCollider:
@@ -2946,6 +3176,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3029,6 +3260,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3090,7 +3322,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 843919317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
@@ -3098,6 +3330,7 @@ MonoBehaviour:
   _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
@@ -3106,6 +3339,15 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &948975432
 GameObject:
@@ -3166,6 +3408,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3213,14 +3456,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 948975432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 10
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -3228,6 +3472,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &963194225
@@ -3240,8 +3492,8 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194226}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3323,7 +3575,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cbdddcfadf9a2c409cc64fba8ee1c83, type: 3}
+  m_Script: {fileID: 11500000, guid: ab86a7d85b5c3da44972c23707ac9042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 183315548}
@@ -3381,6 +3633,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3442,11 +3695,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1076029982}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 11
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -3458,6 +3712,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &1084944516
 GameObject:
@@ -3546,6 +3812,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3607,11 +3874,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1144689898}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 5
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -3623,6 +3891,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &1347058955
 GameObject:
@@ -3683,6 +3963,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3730,14 +4011,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1347058955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 11
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -3745,6 +4027,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &1364492343
@@ -3806,6 +4096,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3853,14 +4144,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1364492343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 5
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -3868,6 +4160,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &1399735167
@@ -3913,22 +4213,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1399735167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 3
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &1399735170
 CapsuleCollider:
@@ -3955,6 +4263,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4036,22 +4345,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1402201476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 1
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &1402201479
 CapsuleCollider:
@@ -4078,6 +4395,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4161,6 +4479,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4222,11 +4541,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1427501521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 7
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -4238,6 +4558,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &1519564242
 GameObject:
@@ -4284,6 +4616,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4345,11 +4678,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1519564242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 4
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -4361,6 +4695,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &1615455317
 GameObject:
@@ -4405,22 +4751,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1615455317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 8
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &1615455320
 CapsuleCollider:
@@ -4447,6 +4801,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4544,6 +4899,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4591,14 +4947,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1636789771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 4
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -4606,6 +4963,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &1802170750
@@ -4651,22 +5016,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1802170750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98aad111bb21383448cc0997c25e6004, type: 3}
+  m_Script: {fileID: 11500000, guid: 691ee250b02a388498c04eca0043f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 6
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 5
   _showValue: 0
   changeXPosition: 1
   xChangeMultiplier: 7
   changeYPosition: 0
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXPosition: 1
+  xChangeMultiplier: 1
+  changeYPosition: 1
+>>>>>>> Stashed changes
   yChangeMultiplier: 1
-  changeZPosition: 0
+  changeZPosition: 1
   zChangeMultiplier: 1
 --- !u!136 &1802170753
 CapsuleCollider:
@@ -4693,6 +5066,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4818,6 +5192,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4879,11 +5254,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1858143260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d563552e9157b643a052c9708391005, type: 3}
+  m_Script: {fileID: 11500000, guid: 18060945bd8fd99469f8fcc65da65794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
+<<<<<<< Updated upstream
   _frequencyBin: 1
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
@@ -4895,6 +5271,18 @@ MonoBehaviour:
   scaleY: 1
   yScaleFactor: 4
   scaleZ: 0
+=======
+  _frequencyBin: 0
+  _useFullSpectrumAverage: 0
+  _minimumChangeValue: 0
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  scaleX: 1
+  xScaleFactor: 1
+  scaleY: 1
+  yScaleFactor: 1
+  scaleZ: 1
+>>>>>>> Stashed changes
   zScaleFactor: 1
 --- !u!1 &1934854101
 GameObject:
@@ -4955,6 +5343,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5002,14 +5391,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1934854101}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 2
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -5017,6 +5407,14 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
 --- !u!1 &1979763088
@@ -5112,6 +5510,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5159,14 +5558,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1984227981}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50f0212726cad4b9b6a0f88d5144e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d6d1168ab6700c4b86395cbf81e557b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _processor: {fileID: 0}
   _localGain: 1
-  _frequencyBin: 3
+  _frequencyBin: 0
   _useFullSpectrumAverage: 0
   _minimumChangeValue: 0
+<<<<<<< Updated upstream
   _maximumChangeValue: 10
   _changeSpeed: 2
   _showValue: 0
@@ -5174,5 +5574,13 @@ MonoBehaviour:
   xChangeMultiplier: 1
   changeYRotation: 0
   yChangeMultiplier: 2
+=======
+  _maximumChangeValue: 1
+  _changeSpeed: 1
+  changeXRotation: 1
+  xChangeMultiplier: 1
+  changeYRotation: 1
+  yChangeMultiplier: 1
+>>>>>>> Stashed changes
   changeZRotation: 1
   zChangeMultiplier: 1
